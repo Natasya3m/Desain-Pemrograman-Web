@@ -1,0 +1,50 @@
+<html>
+	 <head>
+		<title>Order</title>
+		<link rel="stylesheet" href="styleo.css">
+	</head>
+	
+	<body>
+	<div class="container">
+			<h4>ORDER</h4>
+	<form method="POST" action="pesanan.php">
+		</div>
+	<div class="choice">
+			<b> Customer ID</b>
+			<input type="text" name="id" SIZE="30" VALUE="">
+			<BR><BR>
+			<b> Customer Name</b>
+			<input type="text" name="nama" SIZE="50" VALUE="">
+			<BR><BR>
+			<b> Status</b>
+			<BR>
+				<input type="radio" name="status" value="r1">Member <BR>
+				<input type="radio" name="status" value="r2">Non-Member<BR>
+				<BR>
+				<b>Menu</b>
+					<br>
+						<select name="menu" size="1">
+							<option value="Pisang Goreng Keju"> Pisang Goreng Keju 15.000
+							<option value="French Fries">	French Fries 17.000
+							<option value="Pancake"> Pancake 18.000
+							<option value="Latte"> Latte 21.000
+							<option value="Americano"> Americano 16.000
+							<option value="Matcha Latte"> Matcha Latte 23.000
+						</select>
+			<BR><BR>
+			<b> Harga</b>
+			<input type="text" name="prc" SIZE="50" VALUE="">
+			<BR><BR>
+			<b> Qty</b>
+			<input type="text" name="jml" SIZE="3" VALUE="">
+			<BR><BR>
+			<b>Notes</b><BR>
+					<textarea></textarea><BR>
+			<BR>
+			<input type="submit" name="post" value="Send">
+			<BR><BR>
+			<input type="reset" name="reset" value="Clear">
+		</div>
+	</form>
+	</body>
+</html>
